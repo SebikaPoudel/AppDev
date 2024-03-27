@@ -5,6 +5,10 @@ void pascal_triangle(int rows)
 {
 	int i, k;
 	int p = RED;
+	clearScreen();
+	gotoXY(1, 30);
+	printf("Pascal Triangle");
+	resetColors();
 	for (i = 0; i < rows; i++)
 	{
 		gotoXY(i + 1, 40 - i * 2);
@@ -25,7 +29,7 @@ void pascal_triangle(int rows)
 		printf("\n");
 		p++;
 	}
-	resetColors();
+	
 }
 
 int binomial(int n, int k)
