@@ -137,6 +137,13 @@
   <ItemGroup>
     <ClInclude Include="appdev.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="U:\public_html\appdev24.html" />
+    <None Include="U:\public_html\main.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="U:\public_html\mydata.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
